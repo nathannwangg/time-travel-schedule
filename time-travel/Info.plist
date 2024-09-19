@@ -7,5 +7,10 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>montserrat-bold.ttf</string>
+		<string>montserrat-regular.ttf</string>
+	</array>
 </dict>
 </plist>

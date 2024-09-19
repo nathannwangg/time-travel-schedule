@@ -15,6 +15,12 @@
 		90AA8CBF2C992BDE00E042D2 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AA8CBE2C992BDE00E042D2 /* APIConstants.swift */; };
 		90AA8CC12C992F0300E042D2 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AA8CC02C992F0300E042D2 /* Event.swift */; };
 		90AA8CC32C99372800E042D2 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AA8CC22C99372800E042D2 /* APIClient.swift */; };
+		90AA8CC52C9A679700E042D2 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AA8CC42C9A679700E042D2 /* EventViewModel.swift */; };
+		90AA8CC72C9A953200E042D2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AA8CC62C9A953200E042D2 /* CardView.swift */; };
+		90AA8CCB2C9B727600E042D2 /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AA8CCA2C9B727600E042D2 /* TabView.swift */; };
+		90AA8CCD2C9BAB4A00E042D2 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AA8CCC2C9BAB4A00E042D2 /* Styles.swift */; };
+		90AA8CD22C9BB08000E042D2 /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AA8CD12C9BB08000E042D2 /* HeadingView.swift */; };
+		90AA8CD42C9BBBB300E042D2 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AA8CD32C9BBBB300E042D2 /* LabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,14 @@
 		90AA8CBE2C992BDE00E042D2 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		90AA8CC02C992F0300E042D2 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		90AA8CC22C99372800E042D2 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		90AA8CC42C9A679700E042D2 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		90AA8CC62C9A953200E042D2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		90AA8CCA2C9B727600E042D2 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		90AA8CCC2C9BAB4A00E042D2 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		90AA8CCF2C9BAE2300E042D2 /* montserrat-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "montserrat-bold.ttf"; sourceTree = "<group>"; };
+		90AA8CD02C9BAE2300E042D2 /* montserrat-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "montserrat-regular.ttf"; sourceTree = "<group>"; };
+		90AA8CD12C9BB08000E042D2 /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		90AA8CD32C9BBBB300E042D2 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 		9043AEA42C9920C700968936 /* time-travel */ = {
 			isa = PBXGroup;
 			children = (
+				90AA8CCE2C9BAD3600E042D2 /* Font */,
 				90AA8CBD2C99276400E042D2 /* Info.plist */,
 				9043AEB72C99227400968936 /* Utilities */,
 				9043AEB62C99220400968936 /* Network */,
@@ -94,6 +109,10 @@
 			isa = PBXGroup;
 			children = (
 				9043AEB82C99230B00968936 /* ListView.swift */,
+				90AA8CC62C9A953200E042D2 /* CardView.swift */,
+				90AA8CCA2C9B727600E042D2 /* TabView.swift */,
+				90AA8CD12C9BB08000E042D2 /* HeadingView.swift */,
+				90AA8CD32C9BBBB300E042D2 /* LabelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -101,6 +120,7 @@
 		9043AEB52C9921FC00968936 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				90AA8CC42C9A679700E042D2 /* EventViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -117,8 +137,18 @@
 		9043AEB72C99227400968936 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				90AA8CCC2C9BAB4A00E042D2 /* Styles.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		90AA8CCE2C9BAD3600E042D2 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				90AA8CCF2C9BAE2300E042D2 /* montserrat-bold.ttf */,
+				90AA8CD02C9BAE2300E042D2 /* montserrat-regular.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,10 +222,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				90AA8CBF2C992BDE00E042D2 /* APIConstants.swift in Sources */,
+				90AA8CCD2C9BAB4A00E042D2 /* Styles.swift in Sources */,
 				9043AEA82C9920C700968936 /* ContentView.swift in Sources */,
 				9043AEA62C9920C700968936 /* time_travelApp.swift in Sources */,
 				9043AEB92C99230B00968936 /* ListView.swift in Sources */,
+				90AA8CD42C9BBBB300E042D2 /* LabelView.swift in Sources */,
+				90AA8CD22C9BB08000E042D2 /* HeadingView.swift in Sources */,
 				90AA8CC12C992F0300E042D2 /* Event.swift in Sources */,
+				90AA8CC52C9A679700E042D2 /* EventViewModel.swift in Sources */,
+				90AA8CC72C9A953200E042D2 /* CardView.swift in Sources */,
+				90AA8CCB2C9B727600E042D2 /* TabView.swift in Sources */,
 				90AA8CC32C99372800E042D2 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

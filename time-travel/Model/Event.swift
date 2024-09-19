@@ -18,7 +18,7 @@ struct Event: Codable {
     var eventId: String
     var name: String
     var description: String
-    var startTime: Int // Using Int to represent UNIX timestamp; convert to Date as needed
+    var startTime: Int
     var endTime: Int
     var locations: [Location]
     var eventType: String
