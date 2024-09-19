@@ -8,6 +8,6 @@
 import Foundation
 
 struct APIConstants {
-    static let baseURL = URL(string: "https://adonix.hackillinois.org/event/")! // Initialize the base URL of the API
-    static let eventsEndpoint = "/event" // Initialize endpoint for fetching all events
+    static let baseURL = URL(string: "https://adonix.hackillinois.org")! // Initialize the base URL of the API
+    static let eventsEndpoint = "/event/" // Initialize endpoint for fetching all events
 }
