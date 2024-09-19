@@ -11,7 +11,10 @@ import SwiftUI
 struct time_travelApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListView()
+                .environment(\.colorScheme, .light) // force light mode
         }
     }
+    
 }
+

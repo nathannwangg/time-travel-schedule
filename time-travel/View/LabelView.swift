@@ -14,11 +14,11 @@ struct LabelView: View {
 
     var body: some View {
         Text(text)
-            .font(AppFonts.labels)  // Smaller text size for labels
-            .padding(.horizontal, 8)  // Smaller padding
+            .font(AppFonts.labels)
+            .padding(.horizontal, 8)
             .padding(.vertical, 4)
             .background(backgroundColor)
             .foregroundColor(textColor)
-            .cornerRadius(10)  // Rounded corners
+            .cornerRadius(10)
     }
 }
